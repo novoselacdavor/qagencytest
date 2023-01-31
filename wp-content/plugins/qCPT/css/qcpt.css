@@ -1,0 +1,28 @@
+/*
+* CSS for qagency cpt plugin
+*/
+
+/** CSS for qagency cpt plugin - Vars **/
+:root {
+	--qagency-color-black: #1a1a1a;
+	--qagency-color-blue: #204871;
+	--qagency-color-red: #751c17;
+	--qagency-color-green: #0e6d2b;
+	--qagency-color-brown: #d29f36;
+	--qagency-color-gray: #b1b1b1;
+	--qagency-color-darkgray: #919191;
+}
+
+/** Movie List **/
+.movies-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1.5rem;
+	grid-row-gap: 1.5rem;
+}
+
+.movies-list__item figure,
+.movies-list__item img {
+	max-width: 100%;
+	height: auto;
+}

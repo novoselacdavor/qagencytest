@@ -5,9 +5,10 @@
 <html>
 	<head>
 		<title><?php echo get_bloginfo('name') ? get_bloginfo('name') : 'Q Agency Test Assignment' ?></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php wp_head(); ?>
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 		<main>
 			<header>
 				<h1>Q Agency Test</h1>

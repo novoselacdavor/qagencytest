@@ -32,6 +32,7 @@
 
 # Ignore these from the above
 !/wp-content/plugins/index.php
+!/wp-content/plugins/qCPT/
 !/wp-content/themes/qTheme/
 
 # Project dev files (dploy should be ignored on client sites)
